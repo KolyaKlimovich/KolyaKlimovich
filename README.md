@@ -1,16 +1,15 @@
-## Hi there 👋
+# 👋 Привет! Я Николай
+Я аналитик данных с опытом в SQL, Python, A/B-тестировании.  
 
-<!--
-**KolyaKlimovich/KolyaKlimovich** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 🔥 Что я умею  
+- 📊 Анализ данных: SQL, Python (pandas, numpy, matplotlib, seaborn)  
+- 📈 A/B-тестирование, статистика  
+- 🛠 Инструменты: Git, Airflow, Tableau, Yandex Datalens  
 
-Here are some ideas to get you started:
+## 📂 Мои проекты  
+📌 **[Проект 1](ссылка-на-репозиторий)** – описание проекта  
+📌 **[Проект 2](ссылка-на-репозиторий)** – описание проекта  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📫 Связаться со мной  
+- Telegram: @kolyaklimovich
+- Email: 9374305@gmail.com
