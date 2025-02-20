@@ -1,0 +1,38 @@
+name: Data Processing Pipeline
+
+on:
+  schedule:
+    - cron: '0 10 * * *'  # Каждый день в 10:00 UTC
+  workflow_dispatch:  # Для ручного запуска
+
+jobs:
+  process-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas
+
+      - name: Download file
+        run: |
+          curl -o data.csv https://example.com/path/to/data.csv  # Замените на реальный URL
+
+      - name: Run data processing
+        env:
+          BOT_TOKEN: ${{ secrets.5436660997:AAHgC-uF3pmZPYnHQcZZVykrU47ja41QTOk }}
+          CHAT_ID: ${{ secrets.901626650 }}
+          SMTP_USER: ${{ secrets.Melonike@yandex.ru }}
+          SMTP_PASSWORD: ${{ secrets.YhM5LSBC }}
+          TO_EMAIL: ${{ secrets.9374305@gmail.com }}
+        run: |
+          python process_data.py
